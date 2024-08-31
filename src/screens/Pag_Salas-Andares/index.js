@@ -4,17 +4,6 @@ import styles from './styles';
 
 export default function Pag_Salas_Andares(){
 
-    const [fontLoaded] = useFonts({
-        Montserrat_700Bold
-    })
-
-
-
-    if(!fontLoaded) {
-        return null;
-    }
-
-
 
     return(
         <View style={styles.controle}>
