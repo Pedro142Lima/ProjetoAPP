@@ -4,14 +4,6 @@ import styles from './style';
 export default function Pag_Inicial(){
 
 
-    const [fontLoaded] = useFonts({
-        Montserrat_700Bold
-    })
-
-    if(!fontLoaded) {
-        return null;
-    }
-
 
 
     return(

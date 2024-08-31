@@ -2,7 +2,7 @@ import React from 'react';
 import { View , Text, Image, ImageBackground, } from 'react-native'
 import styles from './styles';
 
-export default function Pag_Inicial(){
+export default function Pag_Salas_Andares(){
 
     const [fontLoaded] = useFonts({
         Montserrat_700Bold
